@@ -4,7 +4,7 @@ import './Shipment.css'
 
 const Shipment = () => {
 
-    const [ category, setCategory ] = useContext(CategoryContext);
+    const [ category , setCategory ] = useContext(CategoryContext);
 
     return (
         <div>
